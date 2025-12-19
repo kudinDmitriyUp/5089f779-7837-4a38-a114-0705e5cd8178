@@ -208,10 +208,10 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="footer" data-section="footer" style={{ backgroundColor: "#2d1b3d" }}>
+      <div id="footer" data-section="footer" style={{ color: "#ffffff" }}>
         <FooterSplit
           logoText="Labubu Collective"
-          title="Your trusted source for authentic labubu collectibles"
+          title="Your trusted source for authentic labubi collectibles"
           columns={[
             {
               title: "Shop",
