@@ -10,28 +10,28 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Labubu Collective | Authentic Limited Edition Collectibles",
-  description: "Shop rare and exclusive labubu collectibles. Handpicked designs for serious collectors. Authentic, limited editions delivered worldwide.",
-  keywords: "labubu, collectibles, figures, authentic, limited edition, toys",
-  metadataBase: new URL("https://labubu-collective.com"),
+  title: "Labubi Collective | Authentic Limited Edition Collectibles",
+  description: "Shop rare and exclusive labubi collectibles. Handpicked designs for serious collectors. Authentic, limited editions delivered worldwide.",
+  keywords: "labubi, collectibles, figures, authentic, limited edition, toys",
+  metadataBase: new URL("https://labubi-collective.com"),
   alternates: {
-    canonical: "https://labubu-collective.com"
+    canonical: "https://labubi-collective.com"
   },
   openGraph: {
-    title: "Labubu Collective | Authentic Collectible Figures",
-    description: "Discover rare labubu designs curated for collectors worldwide",
-    url: "https://labubu-collective.com",
-    siteName: "Labubu Collective",
+    title: "Labubi Collective | Authentic Collectible Figures",
+    description: "Discover rare labubi designs curated for collectors worldwide",
+    url: "https://labubi-collective.com",
+    siteName: "Labubi Collective",
     type: "website",
     images: [{
       url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766154629371-ydqho6ui.png",
-      alt: "Labubu collectible figure"
+      alt: "Labubi collectible figure"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Labubu Collective | Premium Collectibles",
-    description: "Authentic limited edition labubu figures for collectors",
+    title: "Labubi Collective | Premium Collectibles",
+    description: "Authentic limited edition labubi figures for collectors",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766154629371-ydqho6ui.png"]
   },
   robots: {
