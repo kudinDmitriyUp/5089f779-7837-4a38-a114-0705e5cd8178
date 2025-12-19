@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -37,7 +37,7 @@ export default function LandingPage() {
       
       <div id="hero" data-section="hero">
         <HeroLogoBillboardSplitImage
-          logoText="LABUBU"
+          logoText="LABUBI"
           description="Discover rare and exclusive labubu collectibles. Each piece is unique, beautifully crafted, and designed for collectors who appreciate fine artistry and limited editions."
           buttons={[
             { text: "Browse Collection", href: "#products" },
@@ -208,7 +208,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="footer" data-section="footer">
+      <div id="footer" data-section="footer" style={{ backgroundColor: "#2d1b3d" }}>
         <FooterSplit
           logoText="Labubu Collective"
           title="Your trusted source for authentic labubu collectibles"
